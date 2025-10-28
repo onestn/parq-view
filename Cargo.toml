@@ -2,5 +2,11 @@
 name = "parq-view"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.90"
+description = "A Rust-powered CLI for inspecting Parquet files -- schema, stats, and preview."
+lincense = "Apache"
+repositary = "https://github.com/onestn/parq-view"
 
 [dependencies]
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1"
